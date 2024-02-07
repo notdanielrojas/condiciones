@@ -30,6 +30,10 @@ p {
 .values select {
   padding: 1rem 1rem;
 }
+
+.values select option {
+  text-align: center;
+}
 .botones button {
   align-items: center;
   background-color: #ffffff;
