@@ -1,7 +1,7 @@
 const verificar = document.getElementById("verificar");
 const resultado = document.getElementById("resultado");
-const btnAnterior = document.getElementById("anterior");
-const btnSiguiente = document.getElementById("siguiente");
+const anterior = document.getElementById("anterior");
+const siguiente = document.getElementById("siguiente");
 
 verificar.addEventListener("click", function () {
   const select1 = document.getElementById("value-1").value;
@@ -19,10 +19,10 @@ verificar.addEventListener("click", function () {
   }
 });
 
-btnAnterior.addEventListener("click", function () {
+anterior.addEventListener("click", function () {
   window.location.href = "index2.html";
 });
 
-btnSiguiente.addEventListener("click", function () {
-  window.location.href = "index1.html";
+siguiente.addEventListener("click", function () {
+  window.location.href = "index.html";
 });

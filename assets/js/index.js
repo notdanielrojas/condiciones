@@ -1,6 +1,8 @@
 const cardLeft = document.getElementById("card-img-1");
 const cardMiddle = document.getElementById("card-img-2");
 const cardRight = document.getElementById("card-img-3");
+const anterior = document.getElementById("anterior");
+const siguiente = document.getElementById("siguiente");
 
 cardLeft.addEventListener("click", function () {
   if (document.getElementById("card-img-1").style.border === "") {
@@ -32,10 +34,10 @@ cardRight.addEventListener("click", function () {
   }
 });
 
-btnAnterior.addEventListener("click", function () {
+anterior.addEventListener("click", function () {
   window.location.href = "index3.html";
 });
 
-btnSiguiente.addEventListener("click", function () {
+siguiente.addEventListener("click", function () {
   window.location.href = "index2.html";
 });
