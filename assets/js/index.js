@@ -5,32 +5,32 @@ const anterior = document.getElementById("anterior");
 const siguiente = document.getElementById("siguiente");
 
 cardLeft.addEventListener("click", function () {
-  if (document.getElementById("card-img-1").style.border === "") {
-    document.getElementById("card-img-1").style.border = "2px solid #3f3738";
-    document.getElementById("card-img-1").style.borderRadius = "20rem";
+  if (cardLeft.style.border === "") {
+    cardLeft.style.border = "2px solid #3f3738";
+    cardLeft.style.borderRadius = "20rem";
   } else {
-    document.getElementById("card-img-1").style.border = "";
-    document.getElementById("card-img-1").style.borderRadius = "0rem";
+    cardLeft.style.border = "";
+    cardLeft.style.borderRadius = "0rem";
   }
 });
 
 cardMiddle.addEventListener("click", function () {
-  if (document.getElementById("card-img-2").style.border === "") {
-    document.getElementById("card-img-2").style.border = "2px solid #3f3738";
-    document.getElementById("card-img-2").style.borderRadius = "20rem";
+  if (cardMiddle.style.border === "") {
+    cardMiddle.style.border = "2px solid #3f3738";
+    cardMiddle.style.borderRadius = "20rem";
   } else {
-    document.getElementById("card-img-2").style.border = "";
-    document.getElementById("card-img-2").style.borderRadius = "0rem";
+    cardMiddle.style.border = "";
+    cardMiddle.style.borderRadius = "0rem";
   }
 });
 
 cardRight.addEventListener("click", function () {
-  if (document.getElementById("card-img-3").style.border === "") {
-    document.getElementById("card-img-3").style.border = "2px solid #3f3738";
-    document.getElementById("card-img-3").style.borderRadius = "20rem";
+  if (cardRight.style.border === "") {
+    cardRight.style.border = "2px solid #3f3738";
+    cardRight.style.borderRadius = "20rem";
   } else {
-    document.getElementById("card-img-3").style.border = "";
-    document.getElementById("card-img-3").style.borderRadius = "0rem";
+    cardRight.style.border = "";
+    cardRight.style.borderRadius = "0rem";
   }
 });
 

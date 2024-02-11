@@ -11,9 +11,9 @@ verificar.addEventListener("click", function () {
   const password = select1 + select2 + select3;
 
   if (password === "911") {
-    resultado.innerHTML = "Password 1 correcto";
+    resultado.innerHTML = "Password 1 correcto.";
   } else if (password === "714") {
-    resultado.innerHTML = "Password 2 correcto";
+    resultado.innerHTML = "Password 2 correcto.";
   } else {
     resultado.innerHTML = "Password incorrecto.";
   }
